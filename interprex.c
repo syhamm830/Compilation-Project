@@ -33,5 +33,6 @@ void parseExpSem(FILE *source) {
     } else {
         printf("Syntax error: unexpected token %s\n", lookahead.lexeme);
         exit(1);
+        
     }
 }
