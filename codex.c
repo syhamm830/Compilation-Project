@@ -11,6 +11,7 @@ Token getNextToken(FILE *source) {
     if (ch == EOF) {
         token.code = TOKEN_EOF;
         return token;
+        
     }
 
     
